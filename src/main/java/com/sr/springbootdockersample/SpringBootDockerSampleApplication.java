@@ -15,7 +15,7 @@ public class SpringBootDockerSampleApplication {
 
 	@GetMapping("/greetings")
 	public String greetings(){
-		return "Hello World!";
+		return "Hello World from docker!";
 	}
 
 }
